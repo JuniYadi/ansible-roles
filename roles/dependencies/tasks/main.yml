@@ -1,0 +1,11 @@
+---
+- name: Install Dependencies
+  apt:
+    pkg:
+      - git
+      - curl
+      - nano
+      - wget
+      - jq
+      - zip
+      - unzip
